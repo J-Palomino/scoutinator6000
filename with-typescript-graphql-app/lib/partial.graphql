@@ -1,0 +1,5 @@
+fragment Partial on TeamDetails {
+  key
+  team_number
+  nickname
+}

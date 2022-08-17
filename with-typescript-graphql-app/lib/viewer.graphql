@@ -1,0 +1,36 @@
+# import Partial from './partial.graphql'
+
+query Team($teamNumber: String!) {
+  team(teamNumber: $teamNumber) {
+    key
+    name
+    details {
+      nickname
+      team_number
+      website
+    }
+  }
+}
+query TeamDetails($teamNumber: String!) {
+  teamDetails(teamNumber: $teamNumber) {
+    key
+    team_number
+    nickname
+    name
+    school_name
+    city
+    state_prov
+    country
+    address
+    postal_code
+    gmaps_place_id
+    gmaps_url
+    lat
+    lng
+    location_name
+    website
+    rookie_year
+    motto
+    home_championship
+  }
+}

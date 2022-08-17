@@ -1,0 +1,32 @@
+type Team {
+  key: String!
+  name: String
+  details: TeamDetails
+  teamDetails: TeamDetails
+}
+
+type TeamDetails {
+  key: String!
+  team_number: Int!
+  nickname: String
+  name: String
+  school_name: String
+  city: String
+  state_prov: String
+  country: String
+  address: String
+  postal_code: String
+  gmaps_place_id: String
+  gmaps_url: String
+  lat: Int
+  lng: Int
+  location_name: String
+  website: String
+  rookie_year: Int
+  motto: String
+  home_championship: String
+}
+
+type MatchDetails22 {
+  name: Boolean
+}

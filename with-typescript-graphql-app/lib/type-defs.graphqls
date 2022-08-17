@@ -1,0 +1,4 @@
+type Query {
+  team(teamNumber: String!): Team!
+  teamDetails(teamNumber: String!): TeamDetails!
+}
